@@ -33,7 +33,7 @@ module.exports = {
 	// Set the port to listen to.
 	//
 	// This value is set to `9000` by default.
-	port: 9000,
+	port: 8080,
 
 	// ### `bind`
 	//
@@ -192,7 +192,7 @@ module.exports = {
 	//
 	// This value is set to `"The Lounge - https://thelounge.chat"` by
 	// default.
-	leaveMessage: "The Lounge - https://thelounge.chat",
+	leaveMessage: "buh bye.",
 
 	// ## Default network
 
@@ -244,10 +244,10 @@ module.exports = {
 		password: "",
 		tls: true,
 		rejectUnauthorized: true,
-		nick: "thelounge%%",
-		username: "thelounge",
-		realname: "The Lounge User",
-		join: "#thelounge",
+		nick: "zgtpa",
+		username: "zgtpa",
+		realname: "philly d",
+		join: "#kubernetes",
 	},
 
 	// ### `lockNetwork`
@@ -283,7 +283,7 @@ module.exports = {
 	// When set to `true`, users' IP addresses will be encoded as hex.
 	//
 	// This is done to share the real user IP address with the server for host
-	// masking purposes. This is encoded in the `username` field and only supports
+	// masking purposes. This is encoded in the `username` field and only sups
 	// IPv4.
 	//
 	// This value is set to `false` by default.
